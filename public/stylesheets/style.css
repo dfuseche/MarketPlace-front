@@ -1,0 +1,310 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/***************NavBar**************************/
+.navbar {
+    background-image: none;
+    background: #0CDE6D !important;
+    font-size: 20px;
+  }
+
+.navbar-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    color:white;
+ }
+
+
+/***************Down Navbar**************************/
+.categories-nav {
+    padding: 15px;
+}
+ .dropdown{
+    padding: 20px;
+ }
+ .dropdown-toggle {
+    font-size: 20px;
+    color: #0CDE6D;
+}
+
+.categories-nav a {
+    color: #0CDE6D;
+}
+
+
+
+/* Carousel */
+ .carousel-inner img {
+    width: 300px;
+    height: 400px;
+}
+/***************Home**************************/
+
+.home {
+    margin: 3rem;
+}
+
+.home h1 {
+    color:#B23CEA;
+    font-size: 4rem;
+}
+
+
+.image-home {
+    position: absolute;
+    
+    left: 50%;}
+
+.circles {
+    margin:0 auto;
+    background: #0CDE6D;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.circles img {
+    position: absolute;
+    left:15px;
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+img .libros {
+    width: 150px;
+    height: 150px;
+}
+
+.second-row {
+    margin-top: 40px;
+}
+
+.categorias {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+/***************Catalogue**************************/
+
+.catalogue {
+    padding: 3rem;
+}
+
+/* Search bar */
+.search-bar {
+    width: 70rem;
+    height: 50px;
+    margin-right: 0px;
+
+ }
+ 
+ .btn-search {
+    width: 4rem;
+    height: 3rem;
+ }
+
+
+ .search-button {
+    width: 5rem;
+    margin: 2rem;
+    vertical-align: middle;
+    background-color: #B23CEA;
+    color: white;
+    border: white;
+
+ }
+
+/***************Cards**************************/
+
+.spinner-border {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+.card-product {
+    margin: 30px 30px 30px 30px;
+    text-align: left;
+}
+
+.card-product img {
+    width: 20rem;
+    height: 11rem;
+}
+
+.card-product .price {
+    background-color: #0CDE6D;
+    color: white;
+    text-align: center;
+    
+}
+
+.card-product .product-category {
+    color:#B23CEA;
+}
+/***************Sign in**************************/
+
+.sign-in {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sign-in hr {
+    border-top: 5px solid;
+    border-radius: 5px;
+
+}
+
+.btn-signin {
+    position: absolute;
+    background-color:#0CDE6D;
+    border-color: white;
+    border-radius: 15px;
+    width: 20rem;
+    height: 3rem;
+    margin-top: 30px;   
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-signin:hover {
+    background-color: gray;
+}
+
+
+/***************Log in**************************/
+
+form input {
+    height: 40px;
+    width: 30rem;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/***************My products**************************/
+
+
+.btn-agregar-producto {
+    background-color:#0CDE6D;
+    border-color: white;
+    border-radius: 15px;
+    width: 24rem;
+    height: 3rem;
+    margin-top: 30px;   
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-agregar-producto:hover {
+    background-color: gray;
+}
+
+.btn-eliminar {
+    background-color: #B23CEA;
+    color: white;
+    border: 0px solid ;
+    border-radius: 4%;
+    width: 20rem;
+    height: 2rem;
+}
+
+.select-add-product {
+    border: white;
+    width: 14rem;
+    font-size: 1.5rem;
+}
+
+/***************Product Detail**************************/
+
+.product-detail {
+    padding: 4rem;
+}
+
+.img-detail {
+    width: 50rem;
+}
+
+.category-detail {
+    color:#B23CEA;
+    font-size: 4rem;
+}
+
+.name-detail {
+    font-size: 3rem;
+}
+
+.descrip-detail {
+    color: gray;
+    font-size: 3rem;
+}
+
+.price-detail {
+    color: #0CDE6D;
+    font-size: 6rem;
+}
+/***************Filter**************************/
+
+.filtrar-precio {
+    margin: 2px;
+    margin-bottom: 10px;
+    width: 14rem;
+}
+
+.btn-filtrar {
+    background-color:#B23CEA;
+    color: white;
+    border-radius: 5%;
+    border: 0px;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.btn-filtrar:hover{
+    background-color: gray;
+}
+
+.select-filter {
+    border: white;
+    width: 14rem;
+    font-size: 1.5rem;
+    
+}
+
+/***************Footer**************************/
+
+footer {
+    background-color: #0CDE6D ;
+    padding: 100px;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    font-size: 20px;
+    margin-top: 30px;
+    margin: 120px;
+    color: #B23CEA;
+}
+
+footer h2 {
+    font-family: 'Jost', sans-serif;
+    margin-top: 40px;
+    color:white;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+
+
+ 

@@ -1,0 +1,43 @@
+[
+    {
+      "value": "todas",
+      "label": "Todas las categorias"
+    },
+    {
+      "value": "electronicos",
+      "label": "Electronicos"
+    },
+    {
+      "value": "hogar",
+      "label": "Hogar"
+    },
+    {
+        "value": "moda",
+        "label": "Moda"
+    },
+    {
+        "value": "mascotas",
+        "label": "Mascotas"
+    },
+    {
+        "value": "deportes",
+        "label": "Deportes"
+    },
+    {
+        "value": "tecnologia",
+        "label": "Tecnología"
+    },
+    {
+        "value": "belleza",
+        "label": "Belleza"
+    },
+    {
+        "value": "salud",
+        "label": "Salud"
+    },
+    {
+        "value": "libros",
+        "label": "Libros"
+    }
+    
+  ]
