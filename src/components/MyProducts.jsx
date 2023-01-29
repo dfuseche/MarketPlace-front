@@ -17,7 +17,7 @@ function MyProducts (){
     useEffect(()=> {
         const fetchProducts = async () => {
             setLoading(true);
-            const res = await fetch("http://localhost:3000/api/products/"+usuario._id)
+            const res = await fetch("https://marketplace-back-production.up.railway.app/api/products/"+usuario._id)
             .then((response)=> response.json())
             .then((data) => {
                 return data;
