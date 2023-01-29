@@ -11,7 +11,7 @@ function Footer (){
         <a>Términos y condiciones</a>
         <a>Cuidamos tu privacidad</a>
         <a>Ayuda</a>
-        <h2>FASTMARKET</h2>
+        <h2><i>FASTMARKET</i></h2>
     </footer>
 }
 

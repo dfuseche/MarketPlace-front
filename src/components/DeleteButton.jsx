@@ -1,4 +1,3 @@
-import { func } from "joi";
 import React from "react";
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";

@@ -9,14 +9,14 @@ function Home(){
     return <div className="home">
         <h1>{usuario !== null?usuario.fName === null? null: "Bienvenido": null} {usuario === null? null: usuario.fName} {usuario === null? null: usuario.lName}</h1>
         <Carousel />
-        <h1>Categorias</h1>
+        <h1>Categorías</h1>
         <div className="categorias">
         <div className="row">
             <div className=" col-lg-1 col-md-0">
             </div>
             <div className="col-lg-2 col-md-4 col-sm-12 content-circle">
                 <div className="circles">
-                    <a href="/catalogue/electronicos"><img src="./img/electrodomesticos.png" alt="image" /></a>
+                    <a href="/catalogue/electronicos"><img className="img-electronicos" src="./img/electrodomesticos.png" alt="image" /></a>
                 </div>               
             </div>
             <div className="col-lg-2 col-md-4 col-sm-12">
@@ -55,12 +55,12 @@ function Home(){
             </div>
             <div className=" col-lg-2 col-md-4 col-sm-12">
                 <div className=" circles">
-                    <a href="/catalogue/salud"><img src="./img/salud.png" alt="image" /></a>
+                    <a href="/catalogue/salud"><img className="img-salud"src="./img/salud.png" alt="image" /></a>
                 </div>               
             </div>
             <div className=" col-lg-2 col-md-4 col-sm-12">
                 <div className=" circles">
-                    <a href="/catalogue/libros"><img src="./img/libros.png" alt="image" /></a>
+                    <a href="/catalogue/libros"><img className="img-libro"src="./img/libros.png" alt="image" /></a>
                 </div>               
             </div>
             <div className=" col-lg-2 col-md-0">

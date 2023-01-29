@@ -65,15 +65,37 @@ body {
 }
 .circles img {
     position: absolute;
-    left:15px;
+    left: 50px;
     width: 200px;
     height: 200px;
     margin-left: 0px;
 }
 
 img .libros {
+    
     width: 150px;
     height: 150px;
+}
+
+.circles .img-electronicos {
+    bottom: -10px;
+    left: 35px;
+    width: 250px;
+    height: 220px;
+}
+
+.circles .img-salud {
+    bottom: 0px;
+    left: 60px;
+    width: 185px;
+    height: 185px;
+}
+
+.circles .img-libro {
+    bottom: 15px;
+    left: 70px;
+    width: 170px;
+    height: 170px;
 }
 
 .second-row {

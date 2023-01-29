@@ -30,7 +30,7 @@ function Navbar(){
 
     return <div className="carouselHome">
         <nav className="navbar navbar-default navbar-expand-lg navbar-light bg-light navbar-color" style={styleNav}>
-        <a className="navbar-brand navbar-title" href="/home">FASTMARKET</a>
+        <a className="navbar-brand navbar-title" href="/home"><i>FASTMARKET</i></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
