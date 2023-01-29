@@ -20,7 +20,7 @@ function AddProduct (){
 
     function handleClick(){
         if(formValues.name !=="" && formValues.price !== 0 && formValues.price !=="" && formValues.description !=="" && formValues.image !=="" && formValues.category !==""){
-            fetch("http://localhost:3000/api/products/"+ usuario._id, {
+            fetch("https://marketplace-back-production.up.railway.app/api/products/"+ usuario._id, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

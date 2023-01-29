@@ -8,7 +8,7 @@ function SearchBar(props){
         search: ""
     });
     const fetchAllProducts = async () => {
-        const res = await fetch("http://localhost:3000/api/products")
+        const res = await fetch("https://marketplace-back-production.up.railway.app/api/products")
         .then((response)=> response.json())
         .then((data) => {
             return data;

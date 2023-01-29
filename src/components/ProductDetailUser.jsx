@@ -9,7 +9,7 @@ function ProductDetailUser(){
     useEffect(()=> {
         const fetchUser = async () => {
             setLoading(true);
-            const res = await fetch("http://localhost:3000/api/products/detailProduct/"+product._id)
+            const res = await fetch("https://marketplace-back-production.up.railway.app/api/products/detailProduct/"+product._id)
             .then((response)=> response.json())
             .then((data) => {
                 return data;

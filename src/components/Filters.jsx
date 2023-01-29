@@ -15,7 +15,7 @@ function Filters(props){
     console.log(formValues);
     
     const fetchProductsByCategory = async () => {
-        const res = await fetch("http://localhost:3000/api/products/category/"+category)
+        const res = await fetch("https://marketplace-back-production.up.railway.app/api/products/category/"+category)
         .then((response)=> response.json())
         .then((data) => {
             return data;
@@ -32,7 +32,7 @@ function Filters(props){
         }
     }
     const fetchAllProducts = async () => {
-        const res = await fetch("http://localhost:3000/api/products")
+        const res = await fetch("https://marketplace-back-production.up.railway.app/api/products")
         .then((response)=> response.json())
         .then((data) => {
             return data;

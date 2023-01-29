@@ -9,7 +9,7 @@ function DeleteButton(props){
 
 
     const deleteProduct = async () => {
-            const res = await fetch("http://localhost:3000/api/products/"+usuario._id+"/"+props.idProduct, {
+            const res = await fetch("https://marketplace-back-production.up.railway.app/api/products/"+usuario._id+"/"+props.idProduct, {
                 method: 'DELETE'
             })
             .then((response)=> response.json())

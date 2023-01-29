@@ -13,7 +13,7 @@ function Login(props){
     const {email, password} = formValues
 
     function handleSubmit(){
-        fetch("/api/auth/login", {
+        fetch("https://marketplace-back-production.up.railway.app/api/auth/login", {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

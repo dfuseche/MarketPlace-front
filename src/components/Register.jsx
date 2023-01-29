@@ -19,7 +19,7 @@ function Register(props){
 
     function handleSubmit(){
         console.log(JSON.stringify(formValues))
-        fetch("http://localhost:3000/api/usuarios", {
+        fetch("https://marketplace-back-production.up.railway.app/api/usuarios", {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
